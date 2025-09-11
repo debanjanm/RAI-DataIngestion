@@ -1,0 +1,192 @@
+topic,pdf_name,chunk_id,chunk_text,token_count,cleaned_text
+astro-ph.CO,2509.07976v1,2509.07976v1_chunk_1,"## Dynamical Dark Energy or Modified Gravity? Signatures in Gravitational Wave Propagation
+
+Purnendu Karmakar 1, ∗ and Sandeep Haridasu 2, 3, 4, †
+
+Institute of Physics, University of Tartu, W. Ostwaldi 1, 50411 Tartu, Estonia 2 SISSA, Via Bonomea 265, 34136 Trieste, Italy
+
+1
+
+3 IFPU - Institute for fundamental physics of the Universe, Via Beirut 2, 34014 Trieste, Italy
+
+INFN-Sezione di Trieste, via Valerio 2, 34127 Trieste, Italy
+
+4 (Dated: 10/09/2025)
+
+We discuss the implications of the most recent DESI Baryon Acoustic Oscillations (BAO) DR2 and DESyr5 compilation of supernovae (SNe) datasets for modified gravity focusing on non-metricity based f ( Q ) theory, by employing a 'model-independent' approach. We reconstruct of dark energy density which is then extended to estimate the perturbation-level quantities, sourced by the modified gravity, namely the effective gravitational coupling, µ , and the amplitude damping parameter of gravitational wave propagation, ν . In light of the remarkable hints for a dynamical dark energy emerging from the analysis of background cosmological data, we discuss the possibility to distinguish between dark energy and modified gravity scenarios from their scalar and tensor perturbationlevel signatures. We contrast our findings between the older Pantheon+ and the newer DESyr5 compilations of SNe datasets, which predict a significant distinct signature in the damping parameter of the gravitational wave propagation amplitude. On the other hand, the prediction for the effective gravitational coupling remains insensitive to the choice of the SNe datasets. Our results provide a strong case for the study of gravitational wave propagation in modified gravity theories, in light of the new generation of gravitational wave detectors such as LISA, Einstein Telescope and Cosmic Explorer.
+",1838,"## Dynamical Dark Energy or Modified Gravity? Signatures in Gravitational Wave Propagation
+
+Purnendu Karmakar 1, ∗ and Sandeep Haridasu 2, 3, 4, †
+
+Institute of Physics, University of Tartu, W. Ostwaldi 1, 50411 Tartu, Estonia 2 SISSA, Via Bonomea 265, 34136 Trieste, Italy
+
+1
+
+3 IFPU - Institute for fundamental physics of the Universe, Via Beirut 2, 34014 Trieste, Italy
+
+INFN-Sezione di Trieste, via Valerio 2, 34127 Trieste, Italy
+
+4 (Dated: 10/09/2025)
+
+We discuss the implications of the most recent DESI Baryon Acoustic Oscillations (BAO) DR2 and DESyr5 compilation of supernovae (SNe) datasets for modified gravity focusing on non-metricity based f ( Q ) theory, by employing a 'model-independent' approach. We reconstruct of dark energy density which is then extended to estimate the perturbation-level quantities, sourced by the modified gravity, namely the effective gravitational coupling, µ , and the amplitude damping parameter of gravitational wave propagation, ν . In light of the remarkable hints for a dynamical dark energy emerging from the analysis of background cosmological data, we discuss the possibility to distinguish between dark energy and modified gravity scenarios from their scalar and tensor perturbationlevel signatures. We contrast our findings between the older Pantheon+ and the newer DESyr5 compilations of SNe datasets, which predict a significant distinct signature in the damping parameter of the gravitational wave propagation amplitude. On the other hand, the prediction for the effective gravitational coupling remains insensitive to the choice of the SNe datasets. Our results provide a strong case for the study of gravitational wave propagation in modified gravity theories, in light of the new generation of gravitational wave detectors such as LISA, Einstein Telescope and Cosmic Explorer.
+"
+astro-ph.CO,2509.07976v1,2509.07976v1_chunk_2,"
+## I. INTRODUCTION
+
+Alternative geometric reformulations of general relativity (GR) [1], particularly those based on the affine connection consisting torsion and non-metricity, have attracted increasing interest in recent years. These approaches provide new perspectives on the nature of gravity comes from geometrical modification. The existence of equivalent formulations of GR, such as the teleparallel equivalent (Teleparallel Equivalent of GR (TEGR)) based on liner torsion scalar, and the symmetric teleparallel equivalent (Symmetric Teleparallel Equivalent of GR(STEGR)) based on linear non-metricity scalar [2, 3], underscores the physical relevance of these extensions and motivates their systematic exploration in the context of modified gravity theories [4].
+
+One could extend these geometrical models further as a function of scalar curvature, called f ( R ) model [5], torsion called f ( T ) model [6], and non-metricity, called f ( T ). Such modifications of gravity allow us explore the more phenomenonlogy of the universe both in the background and perturbation. In this article we take f ( Q ) as an example, since it recently received decent attentions [7-11].
+
+A model-independent approach to reconstruct f ( Q ) from observational data is therefore timely. Recent highprecision datasets, such as most recent DESI BAO DRII and Pantheon+, provide an opportunity to infer the
+
+∗ purnendu.physics@gmail.com
+
+† sharidas@sissa.it
+
+shape of the function and the corresponding action, offering added value to the theoretical community. In this work, we address phenomenological testing of f ( Q ) models and reconstruct their action from current background and perturbation data using symbolic regression and rank the models preferred by the data. Our analysis also highlights potential observational distinctions between dark energy and modified gravity within this class of theories.
+",1899,"
+## I. INTRODUCTION
+
+Alternative geometric reformulations of general relativity (GR) [1], particularly those based on the affine connection consisting torsion and non-metricity, have attracted increasing interest in recent years. These approaches provide new perspectives on the nature of gravity comes from geometrical modification. The existence of equivalent formulations of GR, such as the teleparallel equivalent (Teleparallel Equivalent of GR (TEGR)) based on liner torsion scalar, and the symmetric teleparallel equivalent (Symmetric Teleparallel Equivalent of GR(STEGR)) based on linear non-metricity scalar [2, 3], underscores the physical relevance of these extensions and motivates their systematic exploration in the context of modified gravity theories [4].
+
+One could extend these geometrical models further as a function of scalar curvature, called f ( R ) model [5], torsion called f ( T ) model [6], and non-metricity, called f ( T ). Such modifications of gravity allow us explore the more phenomenonlogy of the universe both in the background and perturbation. In this article we take f ( Q ) as an example, since it recently received decent attentions [7-11].
+
+A model-independent approach to reconstruct f ( Q ) from observational data is therefore timely. Recent highprecision datasets, such as most recent DESI BAO DRII and Pantheon+, provide an opportunity to infer the
+
+∗ purnendu.physics@gmail.com
+
+† sharidas@sissa.it
+
+shape of the function and the corresponding action, offering added value to the theoretical community. In this work, we address phenomenological testing of f ( Q ) models and reconstruct their action from current background and perturbation data using symbolic regression and rank the models preferred by the data. Our analysis also highlights potential observational distinctions between dark energy and modified gravity within this class of theories.
+"
+astro-ph.CO,2509.07976v1,2509.07976v1_chunk_3,"
+A wide range of functional forms for f ( Q ) gravity have been investigated in the literature. Examples include exponential models [12-21], power-law models [10, 1214, 16, 17, 19, 20, 22-30], hyperbolic tangent forms [12, 15], logarithmic extensions [12, 14, 20, 27, 31-34] models, and among others [35-37]. In addition, several efforts have been devoted to reconstructing the dynamical connection [13, 16, 38-53], while other works adopt a designer approach [54], and addressing cosmological tensions [27].
+
+In this work, we explore the reconstruction of viable F ( Q ) cosmological models directly from data, using background probes such as BAO and Pantheon+, along with perturbation-level observables including the effective gravitational constant ( µ ) and gravitationalwave propagation modification in amplitude damping ( ν ). While traditional approaches often rely on parameterizations of the dark energy equation of state w ( z ), our method instead parameterizes the dark energy density and reconstructs the underlying F ( Q ) function. This choice is more natural in the context of modified gravity, where the dynamics of the background and perturbations are tied to the fundamental geometric Lagrangian rather than an assumed equation of state of an energy density
+
+component.
+
+At present, the available data lack the precision necessary to decisively distinguish modified gravity from dark energy at the level of perturbations. In particular, current measurements of growth ( fσ 8 ) and gravitational wave modifications are not yet sufficient to break the degeneracy between competing scenarios. Nevertheless, our reconstruction delivers model-independent predictions for µ and ν , which can serve as benchmarks for upcoming surveys such as DESI, Euclid, SKA, and nextgeneration gravitational wave detectors LISA, DECIGO. These forecasts highlight the potential of future data to test F ( Q ) gravity at both the background and perturbation levels, making our method a forward-looking tool to probe the nature of cosmic acceleration.
+",2047,"
+A wide range of functional forms for f ( Q ) gravity have been investigated in the literature. Examples include exponential models [12-21], power-law models [10, 1214, 16, 17, 19, 20, 22-30], hyperbolic tangent forms [12, 15], logarithmic extensions [12, 14, 20, 27, 31-34] models, and among others [35-37]. In addition, several efforts have been devoted to reconstructing the dynamical connection [13, 16, 38-53], while other works adopt a designer approach [54], and addressing cosmological tensions [27].
+
+In this work, we explore the reconstruction of viable F ( Q ) cosmological models directly from data, using background probes such as BAO and Pantheon+, along with perturbation-level observables including the effective gravitational constant ( µ ) and gravitationalwave propagation modification in amplitude damping ( ν ). While traditional approaches often rely on parameterizations of the dark energy equation of state w ( z ), our method instead parameterizes the dark energy density and reconstructs the underlying F ( Q ) function. This choice is more natural in the context of modified gravity, where the dynamics of the background and perturbations are tied to the fundamental geometric Lagrangian rather than an assumed equation of state of an energy density
+
+component.
+
+At present, the available data lack the precision necessary to decisively distinguish modified gravity from dark energy at the level of perturbations. In particular, current measurements of growth ( fσ 8 ) and gravitational wave modifications are not yet sufficient to break the degeneracy between competing scenarios. Nevertheless, our reconstruction delivers model-independent predictions for µ and ν , which can serve as benchmarks for upcoming surveys such as DESI, Euclid, SKA, and nextgeneration gravitational wave detectors LISA, DECIGO. These forecasts highlight the potential of future data to test F ( Q ) gravity at both the background and perturbation levels, making our method a forward-looking tool to probe the nature of cosmic acceleration.
+"
+astro-ph.CO,2509.07976v1,2509.07976v1_chunk_4,"
+The issue of theoretical stability has also been discussed in detail [55-60]. In the present work, however, our emphasis lies on the phenomenological implications of f ( Q ) cosmology, particularly through reconstruction techniques, which are versatile and can be applied across different classes of models.
+
+The paper is organized as follows. In Section II, we briefly review the f ( Q ) gravity and present the background and perturbation equations. In Section III, we describe the datasets and the methodology employed in this work. The results are presented in Section V, followed by a discussion and conclusion in Section VI.
+
+## II. F(Q) GRAVITY
+
+We start with the action of f ( Q ) gravity framework,
+
+<!-- formula-not-decoded -->
+
+with κ 2 = 8 πG N , c = 1 and Newton's constant, G . The matter Lagrangian L M (CDM , b , rad) represents the contributions from relativistic matter (photons, neglecting neutrinos) and non-relativistic matter (cold dark matter (CDM) and baryons) f ( Q ) is an arbitrary function of the non-metricity scalar ( Q ). The non metricity scalar is defined as the contraction of the non-metricity tensor Q αµν , with its conjugate, P αµν ,
+
+<!-- formula-not-decoded -->
+
+The non-metricity tensor is given as, Q αµν = ∇ α g µν , which by definition incompatible with metric. The nonmetricity conjugate is constructed combining its two independent traces Q α = g µν Q αµν and ˜ Q α = g µν Q µαν
+
+<!-- formula-not-decoded -->
+
+The non-metricity conjugate tensor satisfies the variation,
+
+<!-- formula-not-decoded -->
+
+We assume a homogeneous, isotropic and spatially flat Friedmann-Lemaˆ ıtre-Robertson-Walker (FLRW) [61] background, whose with metric, d s 2 = -d t 2 + a 2 ( t ) δ ij d x i d x j . This yields Hubble expansion, H = ˙ a/a , where a ( t ) is the scale factor and its derivative are in cosmic time, t . The time evolution of the Hubble parameter satisfies ¨ a a = ˙ H + H 2 .
+",1921,"
+The issue of theoretical stability has also been discussed in detail [55-60]. In the present work, however, our emphasis lies on the phenomenological implications of f ( Q ) cosmology, particularly through reconstruction techniques, which are versatile and can be applied across different classes of models.
+
+The paper is organized as follows. In Section II, we briefly review the f ( Q ) gravity and present the background and perturbation equations. In Section III, we describe the datasets and the methodology employed in this work. The results are presented in Section V, followed by a discussion and conclusion in Section VI.
+
+## II. F(Q) GRAVITY
+
+We start with the action of f ( Q ) gravity framework,
+
+<!-- formula-not-decoded -->
+
+with κ 2 = 8 πG N , c = 1 and Newton's constant, G . The matter Lagrangian L M (CDM , b , rad) represents the contributions from relativistic matter (photons, neglecting neutrinos) and non-relativistic matter (cold dark matter (CDM) and baryons) f ( Q ) is an arbitrary function of the non-metricity scalar ( Q ). The non metricity scalar is defined as the contraction of the non-metricity tensor Q αµν , with its conjugate, P αµν ,
+
+<!-- formula-not-decoded -->
+
+The non-metricity tensor is given as, Q αµν = ∇ α g µν , which by definition incompatible with metric. The nonmetricity conjugate is constructed combining its two independent traces Q α = g µν Q αµν and ˜ Q α = g µν Q µαν
+
+<!-- formula-not-decoded -->
+
+The non-metricity conjugate tensor satisfies the variation,
+
+<!-- formula-not-decoded -->
+
+We assume a homogeneous, isotropic and spatially flat Friedmann-Lemaˆ ıtre-Robertson-Walker (FLRW) [61] background, whose with metric, d s 2 = -d t 2 + a 2 ( t ) δ ij d x i d x j . This yields Hubble expansion, H = ˙ a/a , where a ( t ) is the scale factor and its derivative are in cosmic time, t . The time evolution of the Hubble parameter satisfies ¨ a a = ˙ H + H 2 .
+"
+astro-ph.CO,2509.07976v1,2509.07976v1_chunk_5,"
+Three sets of coordinate choices for the connections has been discussed in the past lituratures. From here onward, we adopt the simplest coordinate choice, Q = 6 H 2 [59], that results in the disformation equal to negative LeviCivita connection for the non in the absence of torsion. The coincident gauge can also be imposed together with the coordinate choice, though not part of this work.
+
+## II.1. Background Equations
+
+Adopting the coordinate choice, Q = 6 H 2 , the modified Friedmann equations of f ( Q ) gravity model in the background are
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+with f Q ≡ f Q ( Q ) ≡ ∂f/∂Q and f QQ ≡ f QQ ( Q ) ≡ ∂ 2 f/∂Q 2 . The total matter density is splitted into pressureless ( p m = 0) non-relativistic matter density ( rho m ) including CDM and baryons, and relativistic radiation density, ρ r , satisfies ρ M = ρ m + ρ r . p m is the pressure of non-relativistic matter. We are imposing the condition of spatial flatness that is strongly supported by cosmic microwave background radiation (CMBR) observations [62]. Each species separately satisfies the standard continuity equations, ˙ ρ i = -3 H ( ρ + p i ).
+
+The Lagrangian with linear Q is equivalent to GR[63], that closely follow the background of the universe. Therefore, one can think the non-GR modifications encodes through additional F ( Q ) functions, satisfies f ( Q ) = Q + F ( Q ). That does not loose the generality, because one could always defne backward F ( Q ) ≡ f ( Q ) -Q . In the background equations in form of explicit F ( Q ),
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+with the derivatives with respect to Q , F Q ≡ F Q ( Q ) ≡ ∂F/∂Q and F QQ ≡ F QQ ( Q ) ≡ ∂ 2 F/∂Q 2 . The above equations can be written in a standard Friedmann-like form,
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+where the effective dark energy sector is identified as
+
+<!-- formula-not-decoded -->
+
+We define the usual critical density of the Universe from From Eq. (9),
+
+<!-- formula-not-decoded -->
+",2043,"
+Three sets of coordinate choices for the connections has been discussed in the past lituratures. From here onward, we adopt the simplest coordinate choice, Q = 6 H 2 [59], that results in the disformation equal to negative LeviCivita connection for the non in the absence of torsion. The coincident gauge can also be imposed together with the coordinate choice, though not part of this work.
+
+## II.1. Background Equations
+
+Adopting the coordinate choice, Q = 6 H 2 , the modified Friedmann equations of f ( Q ) gravity model in the background are
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+with f Q ≡ f Q ( Q ) ≡ ∂f/∂Q and f QQ ≡ f QQ ( Q ) ≡ ∂ 2 f/∂Q 2 . The total matter density is splitted into pressureless ( p m = 0) non-relativistic matter density ( rho m ) including CDM and baryons, and relativistic radiation density, ρ r , satisfies ρ M = ρ m + ρ r . p m is the pressure of non-relativistic matter. We are imposing the condition of spatial flatness that is strongly supported by cosmic microwave background radiation (CMBR) observations [62]. Each species separately satisfies the standard continuity equations, ˙ ρ i = -3 H ( ρ + p i ).
+
+The Lagrangian with linear Q is equivalent to GR[63], that closely follow the background of the universe. Therefore, one can think the non-GR modifications encodes through additional F ( Q ) functions, satisfies f ( Q ) = Q + F ( Q ). That does not loose the generality, because one could always defne backward F ( Q ) ≡ f ( Q ) -Q . In the background equations in form of explicit F ( Q ),
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+with the derivatives with respect to Q , F Q ≡ F Q ( Q ) ≡ ∂F/∂Q and F QQ ≡ F QQ ( Q ) ≡ ∂ 2 F/∂Q 2 . The above equations can be written in a standard Friedmann-like form,
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+where the effective dark energy sector is identified as
+
+<!-- formula-not-decoded -->
+
+We define the usual critical density of the Universe from From Eq. (9),
+
+<!-- formula-not-decoded -->
+"
