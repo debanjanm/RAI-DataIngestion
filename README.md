@@ -1,2 +1,2 @@
-# PoC-Embeddings-Analyzer
+# RAI-DataIngestion
 A toolkit for evaluating chunking strategies and embedding quality through automated metrics and interactive visualization.
