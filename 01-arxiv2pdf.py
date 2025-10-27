@@ -88,5 +88,5 @@ if __name__ == "__main__":
         "q-bio.BM", "q-bio.NC", "q-fin.PR", "econ.EM", "physics.soc-ph"
     ]
 
-    downloader = ArxivPDFDownloader(topics=topics, papers_per_topic=5, save_dir="arxiv_data")
+    downloader = ArxivPDFDownloader(topics=topics, papers_per_topic=1, save_dir="arxiv_data")
     downloader.download_pdfs()
