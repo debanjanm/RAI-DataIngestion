@@ -1,6 +1,6 @@
 import os
 import csv
-import lms as lms
+import nbs.lms as lms
 import pyarrow as pa
 import pyarrow.parquet as pq
 from concurrent.futures import ProcessPoolExecutor, as_completed

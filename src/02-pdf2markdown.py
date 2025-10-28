@@ -177,8 +177,8 @@ class ArxivRecoveryGenerator:
 if __name__ == "__main__":
     topics = [
         "cs.LG", "cs.CV", "cs.CL", "cs.AI", "stat.ML",
-        "astro-ph.CO", "hep-th", "quant-ph", "cond-mat.mtrl-sci", "gr-qc",
-        "math.OC", "math.PR", "eess.SP", "eess.SY", "cs.SY",
+        # "astro-ph.CO", "hep-th", "quant-ph", "cond-mat.mtrl-sci", "gr-qc",
+        # "math.OC", "math.PR", "eess.SP", "eess.SY", "cs.SY",
         "q-bio.BM", "q-bio.NC", "q-fin.PR", "econ.EM", "physics.soc-ph"
     ]
 

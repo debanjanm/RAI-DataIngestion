@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 import pyarrow as pa
 import pyarrow.parquet as pq
-import lms as lms
+import nbs.lms as lms
 
 class ArxivEmbeddingStreamer:
     def __init__(self, save_dir="arxiv_data", chunk_csv="all_chunks.csv", model_key="text-embedding-qwen3-embedding-4b"):

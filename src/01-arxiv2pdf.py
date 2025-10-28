@@ -83,10 +83,10 @@ if __name__ == "__main__":
     # Choose 20 topics, 5 papers each = 100 papers total
     topics = [
         "cs.LG", "cs.CV", "cs.CL", "cs.AI", "stat.ML",
-        "astro-ph.CO", "hep-th", "quant-ph", "cond-mat.mtrl-sci", "gr-qc",
-        "math.OC", "math.PR", "eess.SP", "eess.SY", "cs.SY",
+        # "astro-ph.CO", "hep-th", "quant-ph", "cond-mat.mtrl-sci", "gr-qc",
+        # "math.OC", "math.PR", "eess.SP", "eess.SY", "cs.SY",
         "q-bio.BM", "q-bio.NC", "q-fin.PR", "econ.EM", "physics.soc-ph"
     ]
 
-    downloader = ArxivPDFDownloader(topics=topics, papers_per_topic=1, save_dir="arxiv_data")
+    downloader = ArxivPDFDownloader(topics=topics, papers_per_topic=5, save_dir="arxiv_data")
     downloader.download_pdfs()
