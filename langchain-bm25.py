@@ -28,8 +28,8 @@ def remove_key_from_content(documents, key):
 cleaned_data = remove_key_from_content(data, 'chunk_text')
 
 # 4. Print the cleaned documents
-# for doc in cleaned_data:
-#     print(doc.metadata)
+for doc in cleaned_data:
+    print(doc.metadata)
 
 ##------------------------------------------------------------------------------##
 ## Set up environment variables for LM Studio
@@ -39,24 +39,24 @@ os.environ["OPENAI_API_KEY"] = "test"
 
 ##------------------------------------------------------------------------------##
 
-# import pickle
-# from langchain_community.retrievers import BM25Retriever
-# from langchain_core.documents import Document
+import pickle
+from langchain_community.retrievers import BM25Retriever
+from langchain_core.documents import Document
 
-# filtered_docs = [doc for doc in cleaned_data if doc.metadata.get("topic") == "stat.ML"]
-# documents = filtered_docs
+filtered_docs = [doc for doc in cleaned_data if doc.metadata.get("topic") == "stat.ML"]
+documents = filtered_docs
 
-# # Initialize the BM25Retriever
-# bm25_retriever = BM25Retriever.from_documents(documents)
+# Initialize the BM25Retriever
+bm25_retriever = BM25Retriever.from_documents(documents)
 
-# # Define the file path to save the retriever
-# file_path = "bm25_retriever.pkl"
+# Define the file path to save the retriever
+file_path = "bm25_retriever.pkl"
 
-# # Save the BM25Retriever using pickle
-# with open(file_path, "wb") as f:
-#     pickle.dump(bm25_retriever, f)
+# Save the BM25Retriever using pickle
+with open(file_path, "wb") as f:
+    pickle.dump(bm25_retriever, f)
 
-# print(f"BM25Retriever saved to {file_path}")
+print(f"BM25Retriever saved to {file_path}")
 
 ##------------------------------------------------------------------------------##
 import pickle
